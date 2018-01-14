@@ -1,0 +1,53 @@
+.fly-in-text {
+	list-style: none;
+	position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.fly-in-text li {
+	display: inline-block;
+	font-size: 60px;
+	opacity: 1;
+	transition: all 5.5s ease;
+}
+
+.fly-in-text.hidden li {
+	opacity: 0;
+}
+
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(9) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(10) { transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(11) { transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(12) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(13) { transform: translateX(20px) translateY(-20px); }
+.fly-in-text.hidden li:nth-child(14) { transform: translateX(30px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(13) { transform: translateX(20px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(14) { transform: translateX(300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(15) { transform: translateX(200px) translateY(-10px); }
+.fly-in-text.hidden li:nth-child(16) { transform: translateX(-150px) translateY(100px); }
+
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+}
+
+img {
+	z-index: -1;
+	
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
